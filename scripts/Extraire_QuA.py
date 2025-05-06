@@ -4,7 +4,7 @@ import pandas as pd
 
 data = []
 
-folder_path = '../MedQuAD'  # Assure-toi que ce chemin est correct
+folder_path = '../MedQuAD'
 
 for root_dir, _, files in os.walk(folder_path):  # Explore tous les sous-dossiers
     for filename in files:
